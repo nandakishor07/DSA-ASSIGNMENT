@@ -1,0 +1,19 @@
+MERGE SORT
+After merge: 125 324 
+After merge: 218 456 
+After merge: 125 218 324 456 
+After merge: 102 389 
+After merge: 147 275 
+After merge: 102 147 275 389 
+After merge: 102 125 147 218 275 324 389 456 
+Final: 102 125 147 218 275 324 389 456 
+Comparisons = 17
+
+QUICK SORT
+Pivot 147: 125 102 147 218 324 389 275 456 
+Pivot 102: 102 125 
+Pivot 456: 218 324 389 275 456 
+Pivot 275: 218 275 389 324 
+Pivot 324: 324 389 
+Final: 102 125 147 218 275 324 389 456 
+Comparisons = 16
